@@ -1,4 +1,4 @@
-# Dockerfile to install NoMachine Workstation Evaluation v. 5
+# Dockerfile to install qtcreator and x2goxfce
 FROM spielhuus/x2goxfce
 
 ENV QT_URI="http://download.qt.io/official_releases/qt/5.8/5.8.0"
