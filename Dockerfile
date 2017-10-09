@@ -1,7 +1,7 @@
 # Dockerfile to install qtcreator and x2goxfce
 FROM spielhuus/x2goxfce
 
-ENV QT_URI="http://download.qt.io/official_releases/qt/5.9.2/5.9.0.2"
+ENV QT_URI="http://download.qt.io/official_releases/qt/5.9.2/5.9.2"
 ENV QT_VERSION="5.9.2"
 
 RUN apt-get -y update && apt-get install -y \
